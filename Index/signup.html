@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../assets/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <link rel="stylesheet" href="../assets/css/responsive.css" />
+
+  <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet" />
+  
+</head>
+<body>
+  <div class="rContainer">
+    <div class="l-rColumn   col-sm-12 col-lg-4">
+      
+      <div class="card_login_header">
+        <a href="index.html">
+          <i class="fa fa-home fa-2x"></i>
+        </a>
+      </div>
+      
+      <!--sign up form -->
+      <div class="card_signup">
+        <form class="needs-validation" action="#" method="POST" novalidate>
+          <div class="form-group validate-me">
+            <span class="input-icons"><i class="fa fa-user fa-2x"></i></span>
+            <input type="text" class="form-control" name="fullName" id="fullName" min="6" autocomplete="off"
+              placeholder="Full Name" required />
+            <div class="invalid-feedback">
+              Please enter the name.
+            </div>
+          </div>
+
+          <div class=" control-group  validate-me row style">
+            <span class="input-icons" style="font-size:27px">
+              <i class="fas fa-transgender"></i></span>
+            <label class="control-label" style="color:#6e777f;">
+              &nbsp; Gender &nbsp;
+            </label>
+            <div class="controls">
+              <label class="radio inline"><input type="radio" name="Gender" value="Male" /> Male</label>
+              <label class="radio inline"><input type="radio" name="Gender" value="Female" />
+                Female</label>
+            </div>
+          </div>
+          <div class="form-group validate-me">
+            <span class="input-icons_c">
+              <i class="fa fa-graduation-cap fa-2x"></i></span>
+
+            <select class="custom-select" required>
+              <option value="">College</option>
+              <option value="1">College of Education</option>
+              <option value="2">College of Computer</option>
+              <option value="3">College of Engineering</option>
+            </select>
+
+            <span>
+              <select class="custom-select" required>
+                <option value="">Stage</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="3">Four</option>
+              </select>
+            </span>
+
+            <div class="invalid-feedback">
+              Please enter the College & Stage .
+            </div>
+          </div>
+
+          <div class="form-group validate-me">
+            <span class="input-icons">
+              <i class="fa fa-envelope fa-2x"></i></span>
+            <input type="email" class="form-control" name="Email" required autocomplete="off" placeholder="E-mail" />
+            <div class="invalid-feedback">
+              Please enter the E-mail.
+            </div>
+          </div>
+          <div class="form-group">
+            <span class="input-icons">
+              <i class="fa fa-lock fa-2x "></i></span>
+            <input type="password" class="form-control" name="password" placeholder="password"
+              autocomplete="new-password" required />
+          </div>
+
+          <div class="link">
+            <p>Realy have account ? <a href="signin.html">Sign In</a></p>
+          </div>
+          <button type="submit" class="btn btn-primary">SIGN UP</button>
+        </form>
+      </div>
+    </div>
+    <div class="r-rColumn  col-sm-12 col-lg-4 ">
+      <div class="card_signup_img ">
+        <img class="img" src="../assets/image/siginUp.png" alt="img-signup" />
+      </div>
+    </div>
+  </div>
+
+  <script src="../assets/js/jquery-3.4.1.slim.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/popper.min.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

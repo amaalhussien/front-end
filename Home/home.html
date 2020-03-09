@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Home page</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="layout/css/normalize.css" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!--start navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="logo">
+            <img src="../assets/image/logo.png" />
+        </div>
+        <form class="form-inline my-2 my-lg-0 search">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search...." aria-label="Search" />
+            <button class="btn  my-2 my-sm-0" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <i class="fa fa-bars" style="color:#000; font-size:28px;"></i>
+            </span>
+        </button>
+
+        <div class="collapse navbar-collapse ml-4" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="true">college</a>
+
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <i class="fa fa-caret-up fa-5x  triangle-up"></i>
+                        <li>
+                            <a class="dropdown-item" href="collegeproject-1.html">
+                                College of Education</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"> College of Computer </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#" style=" border-bottom: 0px;">College of Engineering</a>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="tranining.html">Tranining</a>
+                </li>
+            </ul>
+            <div class="users">
+                <div class="img-circle">
+                    <img src="../assets/image/user-img.png" alt="" />
+                </div>
+                <div class="dropdown nav-item">
+                    <button class="btn nav-link dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                    <ul class="dropdown-menu profile" aria-labelledby="navbarDropdownMenuLink">
+                        <i class="fa fa-caret-up fa-5x  triangle-up visible-sm"></i>
+                        <li>
+                            <a class="dropdown-item" href="profile.html">
+                                <i class="fa fa-user"></i> Profile</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"><i class="fas fa-plus-circle"></i> Project</a>
+                        </li>
+                       
+                        <li>
+                            <a class="dropdown-item" href="about-1.html"><i class="fa fa-life-ring"></i> About</a>
+                        </li>
+                        <!-- <li>
+                            <a class="dropdown-item" href="#"><i class="fa fa-user"></i>log out</a>
+                        </li> -->
+                        <li>
+                            <a style="color: #ec4646 !important" class="dropdown-item" href="#">
+                                <i class="fas fa-sign-out-alt"></i> Log out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--end navaber-->
+    
+    <!-- Vertical navbar -->
+    <!-- <div class="vertical-nav " id="sidebar">
+        <div class="Repositories">
+            <p class="title">
+                Repositories
+            </p>
+            <a href="" class="link"><img src="../assets/icon/add.png" /> </a>
+            <ul>
+                <li>
+                    project 1
+                </li>
+                <li>
+                    project 2
+                </li>
+                <li>
+                    project 3
+                </li>
+            </ul>
+        </div>
+    </div> -->
+    <!-- End vertical navbar -->
+
+    <!-- Page content holder -->
+    <div class="page-content p-5" id="content">
+        <!-- Toggle button -->
+        <button id="sidebarCollapse" type="button"
+            class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4 visible-sm">
+            <i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold">Toggle</small>
+        </button>
+
+        <!-- Demo content -->
+        <div class="info">
+            <!--end header-->
+            <div class="row">
+                <div class="card tranining">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between pb-4">
+                            <p class="text">
+                                Ameer Amjed <span class="time">04:40 PM</span>
+                            </p>
+                            <label class="check-box">
+                                <input type="checkbox" />
+                                <span></span>
+                            </label>
+                        </div>
+                        <p class="card-text">Management College</p>
+                        <article>
+                            Lorem ipsum dolor sit amet, sectetur adipisicing elit, eiusmod
+                            tempor incididunalquis nostrud exercitation... 
+                            <a href="https://github.com/" target="_blank">github</a>
+                        </article>
+
+                        <div class="card-footer"></div>
+                    </div>
+                    <div class="card-text card-show pt-4 ">
+                        <span>@Alaa Akiel</span>
+
+                        <span class="show"><i class="fas fa-eye"></i> <var>123</var></span>
+                    </div>
+                </div>
+                <div class="card tranining">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between pb-4">
+                                <p class="text">
+                                    Ameer Amjed <span class="time">04:40 PM</span>
+                                </p>
+                                <label class="check-box">
+                                    <input type="checkbox" />
+                                    <span></span>
+                                </label>
+                            </div>
+                            <p class="card-text">Management College</p>
+                            <article>
+                                Lorem ipsum dolor sit amet, sectetur adipisicing elit, eiusmod
+                                tempor incididunalquis nostrud exercitation... 
+                                <a href="https://github.com/" target="_blank">github</a>
+                            </article>
+    
+                            <div class="card-footer"></div>
+                        </div>
+                        <div class="card-text card-show pt-4 ">
+                            <span>@Alaa Akiel</span>
+    
+                            <span class="show"><i class="fas fa-eye"></i> <var>123</var></span>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
